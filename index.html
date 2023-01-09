@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/98e2719c9c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo-div">
+        <a href="#" class="logo-link" id="logo-link">
+          <img src="/img/logo.png" alt="Logo" id="header-img" class="logo" />
+        </a>
+      </div>
+      <input type="checkbox" class="nav-check" id="nav-check" />
+      <nav id="nav-bar">
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#Howitworks">How it works</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </nav>
+      <label for="nav-check" class="nav-toggle">
+        <i class="fa-solid fa-bars"></i>
+      </label>
+    </header>
+    <main>
+      <section class="title">
+        <h1>Handcrafted, home-made masterpieces</h1>
+        <form action="https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            name="suscribe"
+            id="email"
+            class="email"
+            placeholder="Introduce your email here"
+            required
+          />
+          <input id="submit" type="button" value="Get Started" />
+        </form>
+      </section>
+      <section class="subtitles" id="features">
+        <div class="rows">
+          <i class="fa-solid fa-fire-flame-curved"></i>
+          <h2 class="rows__title">Premium Materials</h2>
+          <p class="rows__p">
+            Our trombones use the shiniest brass which is sourced locally. This
+            will increase the longevity of your purchase.
+          </p>
+        </div>
+        <div class="rows">
+          <i class="fa-solid fa-truck-fast"></i>
+          <h2 class="rows__title">Fast Shipping</h2>
+          <p class="rows__p">
+            We make sure you recieve your trombone as soon as we have finished
+            making it. We also provide free returns if you are not satisfied.
+          </p>
+        </div>
+        <div class="rows">
+          <i class="fa-solid fa-poo"></i>
+          <h2 class="rows__title">Quality Assurance</h2>
+          <p class="rows__p">
+            For every purchase you make, we will ensure there are no damages or
+            faults and we will check and test the pitch of your instrument.
+          </p>
+        </div>
+      </section>
+      <section id="Howitworks" class="video-container">
+        <iframe
+          class="video"
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/hen2JOxe4hw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+      <section id="pricing" class="cards">
+        <div class="card">
+          <h3 class="card__title">Tenor trombone</h3>
+          <h4 class="card__price">$700</h4>
+          <ul class="card__ul">
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+          </ul>
+          <button class="card__btn">Select</button>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Big trombone</h3>
+          <h4 class="card__price">$900</h4>
+          <ul class="card__ul">
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+          </ul>
+          <button class="card__btn">Select</button>
+        </div>
+        <div class="card">
+          <h3 class="card__title">Premium trombone</h3>
+          <h4 class="card__price">$1200</h4>
+          <ul class="card__ul">
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+            <li class="card__li">Lorem, ipsum.</li>
+          </ul>
+          <button class="card__btn">Select</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <ul class="footer__nav">
+        <li><a href="#">Privacy</a></li>
+        <li><a href="#">Terms</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+      <p class="footer__p">Copyright 2016, Original Trombones</p>
+    </footer>
+  </body>
+</html>
