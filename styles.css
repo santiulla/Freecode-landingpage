@@ -230,4 +230,23 @@ main {
   text-transform: uppercase;
   margin: 20px 0;
   padding: 0 20px;
+}
+
+.footer {
+  background-color: rgb(18, 138, 118);
+  padding: 10px 20vw;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.footer__nav {
+  display: flex;
+  justify-content: flex-end;
+  gap: 1.5em;
+}
+.footer__p {
+  text-align: end;
+  color: rgba(255, 255, 255, 0.651);
 }/*# sourceMappingURL=styles.css.map */
