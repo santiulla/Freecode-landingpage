@@ -27,9 +27,9 @@
       <input type="checkbox" class="nav-check" id="nav-check" />
       <nav id="nav-bar">
         <ul>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#Howitworks">How it works</a></li>
-          <li><a href="#pricing">Pricing</a></li>
+          <li><a class="nav-link" href="#features">Features</a></li>
+          <li><a class="nav-link" href="#Howitworks">How it works</a></li>
+          <li><a class="nav-link" href="#pricing">Pricing</a></li>
         </ul>
       </nav>
       <label for="nav-check" class="nav-toggle">
@@ -42,13 +42,13 @@
         <form action="https://www.freecodecamp.com/email-submit" id="form">
           <input
             type="email"
-            name="suscribe"
+            name="email"
             id="email"
             class="email"
             placeholder="Introduce your email here"
             required
           />
-          <input id="submit" type="button" value="Get Started" />
+          <input id="submit" type="submit" value="Get Started" />
         </form>
       </section>
       <section class="subtitles" id="features">
@@ -80,6 +80,7 @@
       <section id="Howitworks" class="video-container">
         <iframe
           class="video"
+          id="video"
           width="560"
           height="315"
           src="https://www.youtube.com/embed/hen2JOxe4hw"
